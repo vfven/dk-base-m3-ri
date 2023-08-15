@@ -1,0 +1,53 @@
+
+# Nombre de la asignación
+
+Participantes
+- Vicente y Diego
+
+Actividades
+- Deployar dockercoins.yaml
+
+Comandos
+- 
+11  kubectl create namespace Vicente
+   12  kubectl create namespace vicente
+   13  ls -lrt
+   14  kubectl get pods
+   15  kubectl apply -f dockercoins.yaml --namespace=vicente
+   16  kubectl get pods
+   17  kubectl get namespaces --show-labels -w
+   18  kubectl config set-context --current --namespace=vicente
+   19  kubectl get pods
+   20  kubectl get pods --namespace=kube-public 
+   21  kubectl get pods
+   22  kubectl get namespaces --show-labels -w
+   23  kubectl get pods --namespace=default
+   24  kubectl get pods --namespace=vicente
+   25  kubectl get -f myapp.yaml
+   26  kubectl config set-context --current --namespace=default
+   27  kubectl config set-context --current
+   28  kubectl get -f myapp.yaml
+   29  pwd
+   30  ll
+   31  kubectl config set-context --current --namespace=vicente
+   32  kubectl get -f kubectl get -f myapp.yaml
+   33  kubectl get -f dockercoins.yaml 
+   34  kubectl get deployments
+   35  kubectl rollout restart command
+   36  kubectl rollout restart
+   37  kubectl rollout restart deployments
+   38  kubectl get deployments
+   39  kubectl logs hasher
+   40  kubectl get pods
+   41  kubectl logs hasher-65db859b66-9zn8s
+   42  kubectl describe hasher-65db859b66-9zn8s
+   43  kubectl describe pod hasher-65db859b66-9zn8s
+   44  kubectl get svc webui
+
+
+Recursos externos
+- Ip de Recurso a exponer
+Diego Trejo y Vicente Escareño 54.202.214.184   80:32089
+
+Artifactos
+- Anexar artifactos al directorio de respuesta
